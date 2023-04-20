@@ -79,10 +79,10 @@ export const TotalAssets = ({
         <ContentTitle>Farms</ContentTitle>
         <ContentValue>{isBalanceLoading ? <Loader /> : `$${(farmsBalance as number).toLocaleString()}`}</ContentValue>
       </ContentContainer>
-      <ContentContainer>
+      {/* <ContentContainer>
         <ContentTitle>Staked</ContentTitle>
         <ContentValue>{isBalanceLoading ? <Loader /> : `$${stakedBalance.toLocaleString()}`}</ContentValue>
-      </ContentContainer>
+      </ContentContainer> */}
     </TotalAssetsContainer>
   )
 }

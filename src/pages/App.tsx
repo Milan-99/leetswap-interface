@@ -20,7 +20,7 @@ import { RedirectDuplicateTokenIdsV2 } from './AddLiquidityV2/redirects'
 import { ThemedBackground } from '../theme'
 
 import ApeModeQueryParamReader from 'hooks/useApeModeQueryParamReader'
-import { StakingPage } from './Stake/StakingPage'
+// import { StakingPage } from './Stake/StakingPage'
 import { DisclaimerModal } from 'components/DisclaimerModal'
 import { AssetsListPage } from './Assets/AssetsList'
 
@@ -66,7 +66,7 @@ export default function App() {
         <Route component={DarkModeQueryParamReader} />
         <Route component={ApeModeQueryParamReader} />
         <AppWrapper>
-          <DisclaimerModal />
+          {/* <DisclaimerModal /> */}
           <HeaderWrapper>
             <Header />
           </HeaderWrapper>
@@ -81,7 +81,7 @@ export default function App() {
 
                 <Route exact strict path="/assets" component={AssetsListPage} />
 
-                <Route exact strict path="/stake" component={StakingPage} />
+                {/* <Route exact strict path="/stake" component={StakingPage} /> */}
 
                 <Route exact strict path="/send" component={RedirectPathToSwapOnly} />
                 <Route exact strict path="/swap/:outputCurrency" component={RedirectToSwap} />

@@ -182,8 +182,8 @@ export const AssetsListPage = () => {
         />
         <TableHeadingText>Farms</TableHeadingText>
         <FarmAssetsTable />
-        <TableHeadingText>Staked</TableHeadingText>
-        <StakedAssetsTable />
+        {/* <TableHeadingText>Staked</TableHeadingText>
+        <StakedAssetsTable /> */}
       </AssetsListContainer>
     </AssetContextProvider>
   )

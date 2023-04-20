@@ -1,6 +1,6 @@
 // used to mark unsupported tokens, these are hosted lists of unsupported tokens
 
-const CANTODEX_LIST = 'https://raw.githubusercontent.com/LeetSwap/tokenlist/master/src/tokenlist.json'
+const CANTODEX_LIST = 'https://raw.githubusercontent.com/Milan-99/tokenlist/ffc71a1c1652054d1a566986c5e122a631689c5c/src/tokenlist.json'
 // const COMPOUND_LIST = 'https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json'
 // const UMA_LIST = 'https://umaproject.org/uma.tokenlist.json'
 // const AAVE_LIST = 'tokenlist.aave.eth'

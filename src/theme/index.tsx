@@ -48,7 +48,7 @@ export function colors(darkMode: boolean): Colors {
     text5: darkMode ? '#565A69' : '#EDEEF2',
 
     // backgrounds / greys
-    bg01: 'black',
+    bg01: '#2f413c',
     bg0: darkMode ? 'rgba(16, 16, 18, 0.9)' : 'rgba(16, 16, 18, 0.9)',
     bg1: darkMode ? 'rgba(16, 16, 18, 0.9)' : 'rgba(16, 16, 18, 0.9)',
     bg2: darkMode ? '#191B1F' : '#EDEEF2',
@@ -278,7 +278,7 @@ export const ThemedGlobalStyle = createGlobalStyle`
 html {
   color: ${({ theme }) => theme.text1};
   background-color: ${({ theme }) => theme.bg01};
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.833) 0 100%), url('${BackgroundImg}') no-repeat fixed;
+  // background: linear-gradient(to right, rgba(0, 0, 0, 0.833) 0 100%), url('${BackgroundImg}') no-repeat fixed;
 }
 
 body {

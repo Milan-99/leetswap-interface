@@ -65,7 +65,7 @@ const StyledInfo = styled(Info)`
 
 const Tux = styled.img`
   position: absolute;
-  height: 250px;
+  height: 350px;
   margin-top: -140px;
   ${({ theme }) => theme.mediaWidth.upToSmall`
     display: none
@@ -354,7 +354,7 @@ export default function Swap({ history }: RouteComponentProps) {
         onDismiss={handleDismissTokenWarning}
       />
 
-      <Tux src={TuxImg} />
+      {/* <Tux src={TuxImg} /> */}
       <AppBody>
         {false && <NomadWarningBanner />}
         <SwapHeader allowedSlippage={allowedSlippage} />
